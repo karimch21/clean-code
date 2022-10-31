@@ -38,7 +38,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo__adding-box {
@@ -146,7 +146,7 @@ button {
 }
 
 .todo__task-field {
-  width: 226px
+  width: 226px;
 }
 
 .btn-delete__img {
@@ -171,7 +171,7 @@ button {
 /* Edit Task */
 
 .todo__task-field {
-  display: none
+  display: none;
 }
 
 .todo__item_mode .todo__task-field {
