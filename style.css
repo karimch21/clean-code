@@ -88,7 +88,7 @@ button {
 }
 
 .todo__task-field,
-.todo__field-add  {
+.todo__field-add {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -102,7 +102,7 @@ button {
 }
 
 .todo__task-field:focus,
-.todo__field-add:focus  {
+.todo__field-add:focus {
   color: #333;
 }
 
@@ -130,7 +130,7 @@ button {
   align-items: center;
 }
 
-.todo__item > * {
+.todo__item>* {
   vertical-align: middle;
 }
 
@@ -145,9 +145,7 @@ button {
   width: 226px;
 }
 
-.todo__task-field {
-  width: 226px;
-}
+
 
 .btn-delete__img {
   height: 2em;
@@ -172,6 +170,7 @@ button {
 
 .todo__task-field {
   display: none;
+  width: 226px;
 }
 
 .todo__item_mode .todo__task-field {
